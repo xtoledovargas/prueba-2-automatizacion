@@ -46,11 +46,3 @@ Compila y ejecuta las pruebas unitarias con Maven (mvn test).
 
 Genera y publica el reporte de pruebas Surefire como un artefacto navegable (actions/upload-artifact@v4).
 
-### **Pasos para guardar y enviar:**
-
-1. Presiona **Ctrl + S** para guardar los cambios en el archivo.
-2. Abre la terminal en VS Code (`Ctrl + Shift + ~`) y ejecuta:
-   ```bash
-   git add .
-   git commit -m "docs: se completa archivo README.md"
-   git push origin feature/test-unitarios
