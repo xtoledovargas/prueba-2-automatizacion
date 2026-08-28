@@ -21,6 +21,23 @@
             <version>5.10.0</version>
             <scope>test</scope>
         </dependency>
+
+        <!-- Cucumber Java: Para entender las pruebas en español -->
+    <dependency>
+        <groupId>io.cucumber</groupId>
+        <artifactId>cucumber-java</artifactId>
+        <version>7.14.0</version>
+        <scope>test</scope>
+    </dependency>
+
+    <!-- Cucumber JUnit 5: Para ejecutar las pruebas en Maven -->
+    <dependency>
+        <groupId>io.cucumber</groupId>
+        <artifactId>cucumber-junit-platform-engine</artifactId>
+        <version>7.14.0</version>
+        <scope>test</scope>
+    </dependency>
+    
     </dependencies>
 
     <build>
